@@ -1,5 +1,8 @@
 replicaCount: 1
 
+java-service:
+  fullnameOverride: "hello-service"
+
 image:
   repository: ""
   tag: ""
